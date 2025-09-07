@@ -50,6 +50,9 @@ export default {
       },
       backdropBlur: {
         xs: '2px',
+      },
+      spacing: {
+        'safe-bottom': 'env(safe-area-inset-bottom)',
       }
     },
   },

@@ -27,7 +27,7 @@ export const Profile: React.FC = () => {
   };
 
   return (
-    <div className="p-3 sm:p-4 md:p-6 lg:p-8 pb-20 lg:pb-8">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 pb-24 lg:pb-8">
       <div className="mb-6 sm:mb-8">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>

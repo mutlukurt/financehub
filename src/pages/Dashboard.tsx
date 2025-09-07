@@ -15,7 +15,7 @@ interface DashboardProps {
 
 export const Dashboard: React.FC<DashboardProps> = ({ isDarkMode, toggleDarkMode }) => {
   return (
-    <div className="p-3 sm:p-4 md:p-6 lg:p-8 pb-20 lg:pb-8">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 pb-24 lg:pb-8">
       <Header 
         user={mockData.user}
         brandName={mockData.brandName}

@@ -172,7 +172,7 @@ export const Utilities: React.FC = () => {
   };
 
   return (
-    <div className="p-3 sm:p-4 md:p-6 lg:p-8 pb-20 lg:pb-8">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 pb-24 lg:pb-8">
       <div className="mb-6 sm:mb-8">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-2">
           Financial Utilities

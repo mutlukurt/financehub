@@ -57,6 +57,9 @@ function App() {
             </Routes>
           </main>
         </div>
+        
+        {/* Mobile Navigation */}
+        <MobileNav />
       </div>
     </Router>
   );

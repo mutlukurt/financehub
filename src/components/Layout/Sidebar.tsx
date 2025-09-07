@@ -44,7 +44,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ brandName, isDarkMode, toggleD
   const location = useLocation();
 
   return (
-    <aside className="hidden lg:flex lg:flex-col lg:w-64 xl:w-72 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 transition-colors duration-300">
+    <aside className="hidden lg:flex lg:flex-col lg:w-64 xl:w-72 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 transition-colors duration-300 h-screen sticky top-0">
       <div className="p-6">
         <h1 className="text-xl xl:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           {brandName}
