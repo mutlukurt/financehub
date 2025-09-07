@@ -38,7 +38,7 @@ export const MobileNav: React.FC = () => {
             <a
               key={item.id}
               href={item.path}
-              className={`flex flex-col items-center justify-center p-2 sm:p-3 rounded-xl transition-all duration-300 min-w-0 flex-1 max-w-[80px] ${
+              className={`flex flex-col items-center justify-center p-2 sm:p-3 rounded-xl transition-all duration-150 min-w-0 flex-1 max-w-[80px] ${
                 isActive
                   ? 'text-blue-600'
                   : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
@@ -46,11 +46,11 @@ export const MobileNav: React.FC = () => {
               aria-label={item.label}
             >
               <Icon 
-                className={`h-6 w-6 sm:h-7 sm:w-7 transition-all duration-300 ${
+                className={`h-6 w-6 sm:h-7 sm:w-7 transition-all duration-150 ${
                   isActive ? 'text-blue-600 scale-110' : ''
                 }`} 
               />
-              <span className={`text-xs sm:text-sm mt-1 font-medium transition-all duration-300 truncate ${
+              <span className={`text-xs sm:text-sm mt-1 font-medium transition-all duration-150 truncate ${
                 isActive ? 'text-blue-600' : ''
               }`}>
                 {item.label}

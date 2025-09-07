@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Sidebar } from './components/Layout/Sidebar';
 import { MobileNav } from './components/Layout/MobileNav';
 import { useDarkMode } from './hooks/useDarkMode';
@@ -14,22 +14,23 @@ import { Analytics } from './pages/Analytics';
 import { Support } from './pages/Support';
 import { mockData } from './data/mockData';
 
-function App() {
+const AppContent: React.FC = () => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
+  const location = useLocation();
 
   return (
-    <Router>
-      <div className={`min-h-screen transition-colors duration-300 ${
-        isDarkMode ? 'dark bg-gray-900' : 'bg-gray-50'
-      }`}>
-        <div className="flex">
-          <Sidebar 
-            brandName={mockData.brandName}
-            isDarkMode={isDarkMode}
-            toggleDarkMode={toggleDarkMode}
-          />
-          
-          <main className="flex-1 min-h-screen">
+    <div className={`min-h-screen transition-colors duration-200 ${
+      isDarkMode ? 'dark bg-gray-900' : 'bg-gray-50'
+    }`}>
+      <div className="flex">
+        <Sidebar 
+          brandName={mockData.brandName}
+          isDarkMode={isDarkMode}
+          toggleDarkMode={toggleDarkMode}
+        />
+        
+        <main className="flex-1 min-h-screen">
+          <div key={location.pathname} className="animate-fade-in">
             <Routes>
               <Route 
                 path="/" 
@@ -55,12 +56,20 @@ function App() {
               <Route path="/analytics" element={<Analytics />} />
               <Route path="/support" element={<Support />} />
             </Routes>
-          </main>
-        </div>
-        
-        {/* Mobile Navigation */}
-        <MobileNav />
+          </div>
+        </main>
       </div>
+      
+      {/* Mobile Navigation */}
+      <MobileNav />
+    </div>
+  );
+};
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 }

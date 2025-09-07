@@ -60,7 +60,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ brandName, isDarkMode, toggleD
               <li key={item.id}>
                 <a
                   href={item.path}
-                  className={`w-full flex items-center px-3 py-3 rounded-xl text-left transition-all duration-300 group ${
+                  className={`w-full flex items-center px-3 py-3 rounded-xl text-left transition-all duration-150 group ${
                     isActive
                       ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg'
                       : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
@@ -68,7 +68,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ brandName, isDarkMode, toggleD
                   aria-label={item.label}
                 >
                   <Icon 
-                    className={`mr-3 h-4 w-4 lg:h-5 lg:w-5 transition-transform duration-300 ${
+                    className={`mr-3 h-4 w-4 lg:h-5 lg:w-5 transition-transform duration-150 ${
                       isActive ? 'text-white' : 'group-hover:scale-110'
                     }`} 
                   />
@@ -83,20 +83,20 @@ export const Sidebar: React.FC<SidebarProps> = ({ brandName, isDarkMode, toggleD
       <div className="p-4 space-y-3">
         <button
           onClick={toggleDarkMode}
-          className="w-full flex items-center px-3 py-3 rounded-xl text-left transition-all duration-300 group text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+          className="w-full flex items-center px-3 py-3 rounded-xl text-left transition-all duration-150 group text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
           aria-label="Toggle dark mode"
         >
           {isDarkMode ? (
-            <Sun className="mr-3 h-4 w-4 lg:h-5 lg:w-5 group-hover:scale-110 transition-transform duration-300" />
+            <Sun className="mr-3 h-4 w-4 lg:h-5 lg:w-5 group-hover:scale-110 transition-transform duration-150" />
           ) : (
-            <Moon className="mr-3 h-4 w-4 lg:h-5 lg:w-5 group-hover:scale-110 transition-transform duration-300" />
+            <Moon className="mr-3 h-4 w-4 lg:h-5 lg:w-5 group-hover:scale-110 transition-transform duration-150" />
           )}
           <span className="font-medium text-sm lg:text-base">
             {isDarkMode ? 'Light Mode' : 'Dark Mode'}
           </span>
         </button>
         
-        <button className="w-full bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 lg:px-4 py-2 lg:py-3 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg hover:scale-105 flex items-center justify-center">
+        <button className="w-full bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 lg:px-4 py-2 lg:py-3 rounded-xl font-semibold transition-all duration-150 hover:shadow-lg hover:scale-105 flex items-center justify-center">
           <Crown className="mr-2 h-4 w-4 lg:h-5 lg:w-5" />
           <span className="text-sm lg:text-base">Upgrade to Pro</span>
         </button>
