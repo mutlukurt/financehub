@@ -24,10 +24,10 @@
 
 ### Mobile Version
 <div align="center">
-  <img src="src/assets/mobile/1.png" alt="Mobile Dashboard" width="140"/>
-  <img src="src/assets/mobile/2.png" alt="Mobile Profile" width="140"/>
-  <img src="src/assets/mobile/3.png" alt="Mobile Analytics" width="140"/>
-  <img src="src/assets/mobile/4.png" alt="Mobile Settings" width="140"/>
+  <img src="src/assets/mobile/1.png" alt="Mobile Dashboard" width="180"/>
+  <img src="src/assets/mobile/2.png" alt="Mobile Profile" width="180"/>
+  <img src="src/assets/mobile/3.png" alt="Mobile Analytics" width="180"/>
+  <img src="src/assets/mobile/4.png" alt="Mobile Settings" width="180"/>
 </div>
 
 </div>
