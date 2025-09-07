@@ -16,11 +16,11 @@
 ### Dashboard Overview
 <img src="src/assets/1.png" alt="FinanceHub Dashboard" width="800"/>
 
-### Analytics & Reports
-<img src="src/assets/7.png" alt="FinanceHub Analytics" width="800"/>
+### Messages
+<img src="src/assets/7.png" alt="FinanceHub Messages" width="800"/>
 
-### Mobile Experience
-<img src="src/assets/14.png" alt="FinanceHub Mobile" width="400"/>
+### Dark Mode
+<img src="src/assets/14.png" alt="FinanceHub Dark Mode" width="800"/>
 
 </div>
 
