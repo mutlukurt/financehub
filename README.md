@@ -13,25 +13,48 @@
 
 <div align="center">
 
-### Dashboard Overview
-<img src="src/assets/1.png" alt="FinanceHub Dashboard" width="800"/>
+<table>
+<tr>
+<td align="center" width="50%">
+<h3>📊 Dashboard Overview</h3>
+<img src="src/assets/1.png" alt="FinanceHub Dashboard" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e5e7eb;"/>
+</td>
+<td align="center" width="50%">
+<h3>💬 Messages</h3>
+<img src="src/assets/7.png" alt="FinanceHub Messages" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e5e7eb;"/>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<h3>🌙 Dark Mode</h3>
+<img src="src/assets/14.png" alt="FinanceHub Dark Mode" width="60%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e5e7eb;"/>
+</td>
+</tr>
+</table>
 
-### Messages
-<img src="src/assets/7.png" alt="FinanceHub Messages" width="800"/>
+<h3>📱 Mobile Version</h3>
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="src/assets/mobile/1.png" alt="Mobile Dashboard" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e5e7eb;"/>
+<br><strong>Dashboard</strong>
+</td>
+<td align="center" width="25%">
+<img src="src/assets/mobile/2.png" alt="Mobile Profile" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e5e7eb;"/>
+<br><strong>Analytics</strong>
+</td>
+<td align="center" width="25%">
+<img src="src/assets/mobile/3.png" alt="Mobile Analytics" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e5e7eb;"/>
+<br><strong>Analytics</strong>
+</td>
+<td align="center" width="25%">
+<img src="src/assets/mobile/4.png" alt="Mobile Settings" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); border: 1px solid #e5e7eb;"/>
+<br><strong>Dashboard</strong>
+</td>
+</tr>
+</table>
 
-### Dark Mode
-<img src="src/assets/14.png" alt="FinanceHub Dark Mode" width="800"/>
-
-### Mobile Version
-<div align="center">
-  <img src="src/assets/mobile/1.png" alt="Mobile Dashboard" width="200"/>
-  <img src="src/assets/mobile/2.png" alt="Mobile Profile" width="200"/>
-  <img src="src/assets/mobile/3.png" alt="Mobile Analytics" width="200"/>
-  <img src="src/assets/mobile/4.png" alt="Mobile Settings" width="200"/>
 </div>
-
-</div>
-
 ---
 
 ## 🌟 **Key Features at a Glance**
