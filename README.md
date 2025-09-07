@@ -22,6 +22,14 @@
 ### Dark Mode
 <img src="src/assets/14.png" alt="FinanceHub Dark Mode" width="800"/>
 
+### Mobile Version
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+  <img src="src/assets/mobile/1.png" alt="Mobile Dashboard" width="180"/>
+  <img src="src/assets/mobile/2.png" alt="Mobile Profile" width="180"/>
+  <img src="src/assets/mobile/3.png" alt="Mobile Analytics" width="180"/>
+  <img src="src/assets/mobile/4.png" alt="Mobile Settings" width="180"/>
+</div>
+
 </div>
 
 ---
