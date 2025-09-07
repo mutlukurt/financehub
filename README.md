@@ -14,20 +14,20 @@
 <div align="center">
 
 ### Dashboard Overview
-<img src="src/assets/1.png" alt="FinanceHub Dashboard" width="600"/>
+<img src="src/assets/1.png" alt="FinanceHub Dashboard" width="800"/>
 
 ### Messages
-<img src="src/assets/7.png" alt="FinanceHub Messages" width="600"/>
+<img src="src/assets/7.png" alt="FinanceHub Messages" width="800"/>
 
 ### Dark Mode
-<img src="src/assets/14.png" alt="FinanceHub Dark Mode" width="600"/>
+<img src="src/assets/14.png" alt="FinanceHub Dark Mode" width="800"/>
 
 ### Mobile Version
 <div align="center">
-  <img src="src/assets/mobile/1.png" alt="Mobile Dashboard" width="180"/>
-  <img src="src/assets/mobile/2.png" alt="Mobile Profile" width="180"/>
-  <img src="src/assets/mobile/3.png" alt="Mobile Analytics" width="180"/>
-  <img src="src/assets/mobile/4.png" alt="Mobile Settings" width="180"/>
+  <img src="src/assets/mobile/1.png" alt="Mobile Dashboard" width="200"/>
+  <img src="src/assets/mobile/2.png" alt="Mobile Profile" width="200"/>
+  <img src="src/assets/mobile/3.png" alt="Mobile Analytics" width="200"/>
+  <img src="src/assets/mobile/4.png" alt="Mobile Settings" width="200"/>
 </div>
 
 </div>
