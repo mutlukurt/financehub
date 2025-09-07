@@ -9,6 +9,21 @@
   <p><strong>Experience the full functionality of FinanceHub with our interactive demo</strong></p>
 </div>
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Dashboard Overview
+<img src="src/assets/1.png" alt="FinanceHub Dashboard" width="800"/>
+
+### Analytics & Reports
+<img src="src/assets/7.png" alt="FinanceHub Analytics" width="800"/>
+
+### Mobile Experience
+<img src="src/assets/14.png" alt="FinanceHub Mobile" width="400"/>
+
+</div>
+
 ---
 
 ## 🌟 **Key Features at a Glance**
