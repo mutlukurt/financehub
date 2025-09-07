@@ -1,10 +1,17 @@
 # FinanceHub - Modern Financial Dashboard
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge&logo=vercel)](https://modern-financial-das-gd0a.bolt.host)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/yourusername/financehub)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+<div align="center">
+  <h2>🚀 <a href="https://modern-financial-das-gd0a.bolt.host">Try Live Demo</a> 🚀</h2>
+  <p><strong>Experience the full functionality of FinanceHub with our interactive demo</strong></p>
+</div>
+
+---
 
 > A modern, responsive financial dashboard built with React, TypeScript, and Tailwind CSS. Manage your finances with ease through an intuitive and feature-rich interface.
-
-![FinanceHub Dashboard](https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop)
 
 ## ✨ Features
 
